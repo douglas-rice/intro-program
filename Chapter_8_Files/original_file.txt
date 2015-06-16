@@ -1,0 +1,2 @@
+adding first line of textBy the way, is there anything I can do for you?
+Would you like a massage?Writing to files in Ruby is simple.Here we aare with a new line of textWriting to files in Ruby is simple.

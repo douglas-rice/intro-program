@@ -5,7 +5,7 @@ def countdown(num)
     puts num
   else
     puts num
-    countdown(num-1)
+    countdown(num - 1)
   end
 end
 
