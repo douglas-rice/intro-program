@@ -34,7 +34,7 @@ def factors(number)
 	return divisors  # This is the return value 
 end
 
-puts factors(183)
+puts factors(10)
 
 # Bonus 1:
 #
