@@ -1,0 +1,26 @@
+Describe the difference between ! and ? in Ruby. 
+If '!' or '?' is at the end of a method, it's part of the method name, and not Ruby syntax.
+
+And explain what would happen in the following scenarios: 
+
+1. what is != and where should you use it?
+It an operator that means "not eaqual to".
+You would use it in a conditional statement.
+
+2. put ! before something, like !user_name
+It's the 'not' operator. Again, you would use it in a conditional statement
+like so: 
+if !user_name
+Better said: It's used to turn any object into the opposite of its boolean equivalent.
+
+3. put ! after something, like words.uniq!
+It's the bang (!) operator.  For many (but not all) methods, it can be added to the method name to change the method so it mutates the caller.
+
+4. put ? before something
+In this situation it would indicate it was being used as a ternary operator.
+
+5. put ? after something
+Generally means the method is checking for the existance of something
+
+6. put !! before something, like !!user_name
+Used to turn any object into its boolean equivalent.
